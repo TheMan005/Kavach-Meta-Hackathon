@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-03",
+  "version": "0.3.0",
+  "model": "muse-spark-1.3",
+  "provider": "meta-model-api",
+  "endpoint": "https://api.meta.ai/v1/responses",
+  "variants": {
+    "live": {
+      "tests": {
+        "tests": 64,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "lint": {
+        "Warning": 2
+      },
+      "apk": "app/build/outputs/apk/live/debug/app-live-debug.apk",
+      "apk_bytes": 67222119,
+      "apk_sha256": "c2a55561da87ce3f86ada124ca49cef4bb97314b08ddb68c162ba08841385970",
+      "signature_verified": true,
+      "manifest_audit_passed": true
+    },
+    "offline": {
+      "tests": {
+        "tests": 58,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "lint": {
+        "Warning": 2
+      },
+      "apk": "app/build/outputs/apk/offline/debug/app-offline-debug.apk",
+      "apk_bytes": 67123044,
+      "apk_sha256": "27c7f4b0c8cdce28fe2919e6bee7974605d83a0cb1084998c3d792a2fb19ac53",
+      "signature_verified": true,
+      "manifest_audit_passed": true
+    }
+  },
+  "server_tests": 27,
+  "tools_tests": 4,
+  "placeholder_startup_rejected": true,
+  "device_tests_run": false,
+  "real_meta_api_request_made": false,
+  "native_text_privacy_gate": true
+}

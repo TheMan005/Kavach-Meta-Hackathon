@@ -1,0 +1,250 @@
+[
+  {
+    "id": "demo-01",
+    "title": "A private video call",
+    "language": "en",
+    "text": "I am Inspector Rao. Stay on this video call. Do not tell your family. Transfer ₹40,000 now to avoid arrest.",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "strong_indicators",
+      "suspected_pattern": "digital_arrest",
+      "evidence": [
+        {
+          "message_id": "m1",
+          "quote": "Do not tell your family",
+          "indicator": "isolation"
+        },
+        {
+          "message_id": "m1",
+          "quote": "Transfer ₹40,000 now",
+          "indicator": "urgent_transfer"
+        },
+        {
+          "message_id": "m1",
+          "quote": "avoid arrest",
+          "indicator": "arrest_threat"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-02",
+    "title": "Parcel update",
+    "language": "en",
+    "text": "Your parcel is out for delivery. No payment is due. You can track it in the shop app.",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "no_clear_indicators",
+      "suspected_pattern": "unclear",
+      "evidence": [],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-03",
+    "title": "An OTP request",
+    "language": "en",
+    "text": "I am from support. Read your bank OTP to me so I can release your refund.",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "some_indicators",
+      "suspected_pattern": "account_takeover",
+      "evidence": [
+        {
+          "message_id": "m1",
+          "quote": "Read your bank OTP to me",
+          "indicator": "otp_request"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-04",
+    "title": "Family chat",
+    "language": "en",
+    "text": "Can you call when you are free? We are planning dinner on Sunday.",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "no_clear_indicators",
+      "suspected_pattern": "unclear",
+      "evidence": [],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-05",
+    "title": "Secret transfer",
+    "language": "hi",
+    "text": "किसी को मत बताना। जाँच रोकने के लिए अभी पैसे भेजो, नहीं तो गिरफ्तार कर लेंगे।",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "strong_indicators",
+      "suspected_pattern": "digital_arrest",
+      "evidence": [
+        {
+          "message_id": "m1",
+          "quote": "किसी को मत बताना",
+          "indicator": "isolation"
+        },
+        {
+          "message_id": "m1",
+          "quote": "अभी पैसे भेजो",
+          "indicator": "urgent_transfer"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-06",
+    "title": "Delivery confirmation",
+    "language": "hi",
+    "text": "आपका सामान कल आएगा। भुगतान पहले ही हो चुका है।",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "no_clear_indicators",
+      "suspected_pattern": "unclear",
+      "evidence": [],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-07",
+    "title": "Screen access",
+    "language": "en",
+    "text": "Install this remote control app and grant full screen access so I can fix your banking account.",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "some_indicators",
+      "suspected_pattern": "account_takeover",
+      "evidence": [
+        {
+          "message_id": "m1",
+          "quote": "grant full screen access",
+          "indicator": "remote_access"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-08",
+    "title": "Safety reminder",
+    "language": "en",
+    "text": "If anyone says “send money or face arrest”, stop and independently verify. Never send them money.",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "no_clear_indicators",
+      "suspected_pattern": "unclear",
+      "evidence": [],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-09",
+    "title": "Not enough context",
+    "language": "hi",
+    "text": "आपसे एक जरूरी बात करनी है।",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "insufficient_evidence",
+      "suspected_pattern": "unclear",
+      "evidence": [],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-10",
+    "title": "Account linking",
+    "language": "en",
+    "text": "Scan my account-linking QR code to claim your prize. It gives our team access to your messages.",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "some_indicators",
+      "suspected_pattern": "account_takeover",
+      "evidence": [
+        {
+          "message_id": "m1",
+          "quote": "Scan my account-linking QR code",
+          "indicator": "account_linking"
+        }
+      ],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-11",
+    "title": "An unknown classmate",
+    "language": "en",
+    "text": "Hi, this is Mira from the photography workshop. Could you share the public timetable?",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "no_clear_indicators",
+      "suspected_pattern": "unclear",
+      "evidence": [],
+      "limitations": []
+    }
+  },
+  {
+    "id": "demo-12",
+    "title": "Stay on the call",
+    "language": "hinglish",
+    "text": "Call pe raho. Kisi ko batana mat. Abhi paisa bhejo warna arrest hoga.",
+    "synthetic": true,
+    "provenance": "Scripted demo — no AI assessment",
+    "response": {
+      "schema_version": 1,
+      "status": "assessed",
+      "risk": "strong_indicators",
+      "suspected_pattern": "digital_arrest",
+      "evidence": [
+        {
+          "message_id": "m1",
+          "quote": "Kisi ko batana mat",
+          "indicator": "isolation"
+        },
+        {
+          "message_id": "m1",
+          "quote": "Abhi paisa bhejo",
+          "indicator": "urgent_transfer"
+        }
+      ],
+      "limitations": []
+    }
+  }
+]

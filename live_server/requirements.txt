@@ -1,0 +1,2 @@
+# HTTPS client uses Python standard library; only Meta Muse Spark performs inference.
+Pillow==12.0.0

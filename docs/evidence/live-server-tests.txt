@@ -1,0 +1,24 @@
+test_bad_json_does_not_echo_payload (test_http.HttpTest.test_bad_json_does_not_echo_payload) ... ok
+test_no_inference_queue (test_http.HttpTest.test_no_inference_queue) ... ok
+test_other_model_profile_rejected (test_http.HttpTest.test_other_model_profile_rejected) ... ok
+test_oversized_image_rejected_before_model (test_http.HttpTest.test_oversized_image_rejected_before_model) ... ok
+test_unauthorized_request_never_reaches_model (test_http.HttpTest.test_unauthorized_request_never_reaches_model) ... ok
+test_valid_frame_binds_response_and_meta_provenance (test_http.HttpTest.test_valid_frame_binds_response_and_meta_provenance) ... ok
+test_duplicate_keys_rejected (test_protocol.ProtocolTest.test_duplicate_keys_rejected) ... ok
+test_evidence_free_warning_rejected (test_protocol.ProtocolTest.test_evidence_free_warning_rejected) ... ok
+test_fabricated_quote_rejected (test_protocol.ProtocolTest.test_fabricated_quote_rejected) ... ok
+test_faces_without_text_must_abstain (test_protocol.ProtocolTest.test_faces_without_text_must_abstain) ... ok
+test_hindi_vision_is_unsupported (test_protocol.ProtocolTest.test_hindi_vision_is_unsupported) ... ok
+test_model_cannot_choose_provenance (test_protocol.ProtocolTest.test_model_cannot_choose_provenance) ... ok
+test_no_markdown_or_instruction_execution (test_protocol.ProtocolTest.test_no_markdown_or_instruction_execution) ... ok
+test_only_jpeg_and_valid_frame_id (test_protocol.ProtocolTest.test_only_jpeg_and_valid_frame_id) ... ok
+test_output_size_bound (test_protocol.ProtocolTest.test_output_size_bound) ... ok
+test_server_owns_provenance (test_protocol.ProtocolTest.test_server_owns_provenance) ... ok
+test_unknown_risk_rejected (test_protocol.ProtocolTest.test_unknown_risk_rejected) ... ok
+test_url_is_never_a_frame (test_protocol.ProtocolTest.test_url_is_never_a_frame) ... ok
+test_valid_visual_evidence (test_protocol.ProtocolTest.test_valid_visual_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 3.045s
+
+OK

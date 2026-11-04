@@ -1,0 +1,137 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preLiveDebugBuild UP-TO-DATE
+> Task :app:generateLiveDebugBuildConfig
+> Task :app:checkLiveDebugAarMetadata UP-TO-DATE
+> Task :app:generateLiveDebugResValues UP-TO-DATE
+> Task :app:mapLiveDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateLiveDebugResources UP-TO-DATE
+> Task :app:mergeLiveDebugResources UP-TO-DATE
+> Task :app:packageLiveDebugResources UP-TO-DATE
+> Task :app:parseLiveDebugLocalResources UP-TO-DATE
+> Task :app:createLiveDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksLiveDebug UP-TO-DATE
+> Task :app:processLiveDebugMainManifest
+> Task :app:processLiveDebugManifest
+> Task :app:javaPreCompileLiveDebug UP-TO-DATE
+> Task :app:preLiveDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileLiveDebugUnitTest UP-TO-DATE
+> Task :app:mergeLiveDebugShaders UP-TO-DATE
+> Task :app:compileLiveDebugShaders NO-SOURCE
+> Task :app:generateLiveDebugAssets UP-TO-DATE
+> Task :app:mergeLiveDebugAssets UP-TO-DATE
+> Task :app:preOfflineDebugBuild UP-TO-DATE
+> Task :app:generateOfflineDebugBuildConfig
+> Task :app:checkOfflineDebugAarMetadata UP-TO-DATE
+> Task :app:generateOfflineDebugResValues UP-TO-DATE
+> Task :app:mapOfflineDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateOfflineDebugResources UP-TO-DATE
+> Task :app:mergeOfflineDebugResources UP-TO-DATE
+> Task :app:packageOfflineDebugResources UP-TO-DATE
+> Task :app:parseOfflineDebugLocalResources UP-TO-DATE
+> Task :app:createOfflineDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksOfflineDebug UP-TO-DATE
+> Task :app:processOfflineDebugMainManifest
+> Task :app:processOfflineDebugManifest
+> Task :app:javaPreCompileOfflineDebug UP-TO-DATE
+> Task :app:preOfflineDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileOfflineDebugUnitTest UP-TO-DATE
+> Task :app:mergeOfflineDebugShaders UP-TO-DATE
+> Task :app:compileOfflineDebugShaders NO-SOURCE
+> Task :app:generateOfflineDebugAssets UP-TO-DATE
+> Task :app:mergeOfflineDebugAssets UP-TO-DATE
+> Task :app:preLiveDebugAndroidTestBuild SKIPPED
+> Task :app:generateLiveDebugAndroidTestResValues UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:preOfflineDebugAndroidTestBuild SKIPPED
+> Task :app:generateOfflineDebugAndroidTestResValues UP-TO-DATE
+> Task :app:mergeLiveDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compressLiveDebugAssets UP-TO-DATE
+> Task :app:checkLiveDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarLiveDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexLiveDebug UP-TO-DATE
+> Task :app:mergeLibDexLiveDebug UP-TO-DATE
+> Task :app:mergeLiveDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeLiveDebugNativeLibs UP-TO-DATE
+> Task :app:stripLiveDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningLiveDebug UP-TO-DATE
+> Task :app:writeLiveDebugAppMetadata UP-TO-DATE
+> Task :app:writeLiveDebugSigningConfigVersions UP-TO-DATE
+> Task :app:mergeOfflineDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compressOfflineDebugAssets UP-TO-DATE
+> Task :app:checkOfflineDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarOfflineDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexOfflineDebug UP-TO-DATE
+> Task :app:mergeLibDexOfflineDebug UP-TO-DATE
+> Task :app:mergeOfflineDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeOfflineDebugNativeLibs UP-TO-DATE
+> Task :app:stripOfflineDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningOfflineDebug UP-TO-DATE
+> Task :app:writeOfflineDebugAppMetadata UP-TO-DATE
+> Task :app:writeOfflineDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processLiveDebugManifestForPackage
+> Task :app:processOfflineDebugManifestForPackage
+> Task :app:processLiveDebugResources
+> Task :app:processOfflineDebugResources
+> Task :app:packageLiveDebugUnitTestForUnitTest
+> Task :app:generateLiveDebugUnitTestConfig
+> Task :app:packageOfflineDebugUnitTestForUnitTest
+> Task :app:generateOfflineDebugUnitTestConfig
+> Task :app:compileOfflineDebugKotlin
+> Task :app:compileLiveDebugKotlin
+> Task :app:compileOfflineDebugJavaWithJavac
+> Task :app:compileLiveDebugJavaWithJavac
+> Task :app:processLiveDebugJavaRes UP-TO-DATE
+> Task :app:bundleLiveDebugClassesToCompileJar
+> Task :app:bundleLiveDebugClassesToRuntimeJar
+> Task :app:bundleOfflineDebugClassesToRuntimeJar
+> Task :app:bundleOfflineDebugClassesToCompileJar
+> Task :app:processOfflineDebugJavaRes UP-TO-DATE
+> Task :app:generateLiveDebugAndroidTestLintModel
+> Task :app:generateLiveDebugLintReportModel
+> Task :app:generateLiveDebugUnitTestLintModel
+> Task :app:generateOfflineDebugAndroidTestLintModel
+> Task :app:generateOfflineDebugLintReportModel
+> Task :app:generateOfflineDebugUnitTestLintModel
+> Task :app:compileOfflineDebugUnitTestKotlin
+> Task :app:compileOfflineDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processOfflineDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:compileLiveDebugUnitTestKotlin
+> Task :app:testOfflineDebugUnitTest
+> Task :app:compileLiveDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processLiveDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:lintAnalyzeLiveDebugAndroidTest
+> Task :app:lintAnalyzeLiveDebugUnitTest
+> Task :app:testLiveDebugUnitTest
+> Task :app:lintAnalyzeOfflineDebugAndroidTest
+> Task :app:lintAnalyzeLiveDebug
+> Task :app:lintAnalyzeOfflineDebug
+> Task :app:dexBuilderLiveDebug
+> Task :app:mergeLiveDebugGlobalSynthetics UP-TO-DATE
+> Task :app:mergeLiveDebugJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexLiveDebug
+> Task :app:dexBuilderOfflineDebug
+> Task :app:mergeOfflineDebugGlobalSynthetics UP-TO-DATE
+> Task :app:mergeOfflineDebugJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexOfflineDebug
+> Task :app:lintAnalyzeOfflineDebugUnitTest
+> Task :app:packageLiveDebug
+> Task :app:createLiveDebugApkListingFileRedirect
+> Task :app:assembleLiveDebug
+> Task :app:packageOfflineDebug
+> Task :app:createOfflineDebugApkListingFileRedirect
+> Task :app:assembleOfflineDebug
+
+> Task :app:lintReportOfflineDebug
+Wrote HTML report to file:///home/gremlin/Documents/Projects/Meta_Hackathon/app/build/reports/lint-results-offlineDebug.html
+
+> Task :app:lintOfflineDebug
+
+> Task :app:lintReportLiveDebug
+Wrote HTML report to file:///home/gremlin/Documents/Projects/Meta_Hackathon/app/build/reports/lint-results-liveDebug.html
+
+> Task :app:lintLiveDebug
+
+BUILD SUCCESSFUL in 1m 12s
+109 actionable tasks: 52 executed, 57 up-to-date

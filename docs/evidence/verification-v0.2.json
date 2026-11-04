@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-02",
+  "version": "0.2.0",
+  "variants": {
+    "live": {
+      "tests": {
+        "tests": 62,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "lint": {
+        "Warning": 2
+      },
+      "lint_issue_ids": [
+        "ChromeOsAbiSupport",
+        "UsableSpace"
+      ],
+      "apk": "app/build/outputs/apk/live/debug/app-live-debug.apk",
+      "apk_bytes": 67402487,
+      "apk_sha256": "fa3b125598b1d0b432ee7b6ebc695f76ca1fd5de8127da6083435f06915968e2",
+      "signature_verified": true,
+      "manifest_audit_passed": true
+    },
+    "offline": {
+      "tests": {
+        "tests": 56,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "lint": {
+        "Warning": 2
+      },
+      "lint_issue_ids": [
+        "ChromeOsAbiSupport",
+        "UsableSpace"
+      ],
+      "apk": "app/build/outputs/apk/offline/debug/app-offline-debug.apk",
+      "apk_bytes": 67303384,
+      "apk_sha256": "f26a566dcf71e7ebdf6b951102a37c037c67cebd0d65d58c9a2e2510bc043e19",
+      "signature_verified": true,
+      "manifest_audit_passed": true
+    }
+  },
+  "server_tests": 19,
+  "tools_tests": 4,
+  "device_tests_run": false,
+  "real_vision_model_run": false,
+  "real_text_model_run": false,
+  "native_text_privacy_gate": true
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-03",
+  "version": "0.4.0",
+  "models": [
+    "muse-voice-transcribe-1.0",
+    "muse-spark-1.3"
+  ],
+  "provider": "meta-model-api",
+  "audio_mode": "experimental_speakerphone_microphone",
+  "variants": {
+    "live": {
+      "tests": {
+        "tests": 74,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "lint": {
+        "Warning": 2
+      },
+      "apk": "app/build/outputs/apk/live/debug/app-live-debug.apk",
+      "apk_bytes": 67287743,
+      "apk_sha256": "8ddaab21f1448844011ec346c9cf1aecd207e6b69dfdca65d3192c40ff905ec9",
+      "signature_verified": true,
+      "manifest_audit_passed": true
+    },
+    "offline": {
+      "tests": {
+        "tests": 66,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "lint": {
+        "Warning": 2
+      },
+      "apk": "app/build/outputs/apk/offline/debug/app-offline-debug.apk",
+      "apk_bytes": 67123044,
+      "apk_sha256": "3711c486dda34adea6411223aec1cc018fb3cf4e053e0a0200a62eff7eccbfe4",
+      "signature_verified": true,
+      "manifest_audit_passed": true
+    }
+  },
+  "server_tests": 39,
+  "device_tests_run": false,
+  "real_meta_api_request_made": false,
+  "native_text_privacy_gate": true
+}

@@ -1,0 +1,44 @@
+test_abstention_cannot_include_transcript_or_prediction (test_audio.AudioTest.test_abstention_cannot_include_transcript_or_prediction) ... ok
+test_blank_transcript_skips_scam_model (test_audio.AudioTest.test_blank_transcript_skips_scam_model) ... ok
+test_hindi_profile_abstains_without_spark_call (test_audio.AudioTest.test_hindi_profile_abstains_without_spark_call) ... ok
+test_invalid_and_oversized_asr_fail_closed (test_audio.AudioTest.test_invalid_and_oversized_asr_fail_closed) ... ok
+test_multipart_uses_only_meta_asr_and_real_wav_then_spark (test_audio.AudioTest.test_multipart_uses_only_meta_asr_and_real_wav_then_spark) ... ok
+test_pcm_size_session_and_chunk_are_strict (test_audio.AudioTest.test_pcm_size_session_and_chunk_are_strict) ... ok
+test_provider_failure_never_becomes_safe (test_audio.AudioTest.test_provider_failure_never_becomes_safe) ... ok
+test_silence_never_calls_meta (test_audio.AudioTest.test_silence_never_calls_meta) ... ok
+test_transcript_rewriting_is_rejected (test_audio.AudioTest.test_transcript_rewriting_is_rejected) ... ok
+test_audio_auth_and_size_rejected_before_provider (test_http.HttpTest.test_audio_auth_and_size_rejected_before_provider) ... ok
+test_audio_provider_error_is_sanitized (test_http.HttpTest.test_audio_provider_error_is_sanitized) ... ok
+test_audio_route_runs_meta_pipeline (test_http.HttpTest.test_audio_route_runs_meta_pipeline) ... ok
+test_bad_json_does_not_echo_payload (test_http.HttpTest.test_bad_json_does_not_echo_payload) ... ok
+test_frame_reaches_muse_adapter_and_returns_validated_result (test_http.HttpTest.test_frame_reaches_muse_adapter_and_returns_validated_result) ... ok
+test_no_inference_queue (test_http.HttpTest.test_no_inference_queue) ... ok
+test_other_model_profile_rejected (test_http.HttpTest.test_other_model_profile_rejected) ... ok
+test_oversized_image_rejected_before_model (test_http.HttpTest.test_oversized_image_rejected_before_model) ... ok
+test_unauthorized_request_never_reaches_model (test_http.HttpTest.test_unauthorized_request_never_reaches_model) ... ok
+test_valid_frame_binds_response_and_meta_provenance (test_http.HttpTest.test_valid_frame_binds_response_and_meta_provenance) ... ok
+test_fixed_https_destination_authorization_and_cleanup (test_meta_api.MetaApiTest.test_fixed_https_destination_authorization_and_cleanup) ... ok
+test_oversized_image_never_uploaded (test_meta_api.MetaApiTest.test_oversized_image_never_uploaded) ... ok
+test_placeholders_and_header_injection_rejected (test_meta_api.MetaApiTest.test_placeholders_and_header_injection_rejected) ... ok
+test_rate_limit_auth_error_and_redirect_are_not_retried_or_echoed (test_meta_api.MetaApiTest.test_rate_limit_auth_error_and_redirect_are_not_retried_or_echoed) ... ok
+test_real_adapter_requests_only_muse_with_inline_image_and_no_storage (test_meta_api.MetaApiTest.test_real_adapter_requests_only_muse_with_inline_image_and_no_storage) ... ok
+test_timeout_and_oversized_response_fail_without_verdict (test_meta_api.MetaApiTest.test_timeout_and_oversized_response_fail_without_verdict) ... ok
+test_wrong_model_incomplete_refusal_tools_and_duplicate_output_abstain (test_meta_api.MetaApiTest.test_wrong_model_incomplete_refusal_tools_and_duplicate_output_abstain) ... ok
+test_duplicate_keys_rejected (test_protocol.ProtocolTest.test_duplicate_keys_rejected) ... ok
+test_evidence_free_warning_rejected (test_protocol.ProtocolTest.test_evidence_free_warning_rejected) ... ok
+test_fabricated_quote_rejected (test_protocol.ProtocolTest.test_fabricated_quote_rejected) ... ok
+test_faces_without_text_must_abstain (test_protocol.ProtocolTest.test_faces_without_text_must_abstain) ... ok
+test_hindi_vision_is_unsupported (test_protocol.ProtocolTest.test_hindi_vision_is_unsupported) ... ok
+test_model_cannot_choose_provenance (test_protocol.ProtocolTest.test_model_cannot_choose_provenance) ... ok
+test_no_markdown_or_instruction_execution (test_protocol.ProtocolTest.test_no_markdown_or_instruction_execution) ... ok
+test_only_jpeg_and_valid_frame_id (test_protocol.ProtocolTest.test_only_jpeg_and_valid_frame_id) ... ok
+test_output_size_bound (test_protocol.ProtocolTest.test_output_size_bound) ... ok
+test_server_owns_provenance (test_protocol.ProtocolTest.test_server_owns_provenance) ... ok
+test_unknown_risk_rejected (test_protocol.ProtocolTest.test_unknown_risk_rejected) ... ok
+test_url_is_never_a_frame (test_protocol.ProtocolTest.test_url_is_never_a_frame) ... ok
+test_valid_visual_evidence (test_protocol.ProtocolTest.test_valid_visual_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 5.404s
+
+OK

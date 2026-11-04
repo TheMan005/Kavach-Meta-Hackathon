@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-05",
+  "version": "0.6.0",
+  "variants": {
+    "live": {
+      "tests": {
+        "tests": 87,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "lint": {
+        "Warning": 1
+      },
+      "apk": "app/build/outputs/apk/live/debug/app-live-debug.apk",
+      "apk_bytes": 56790434,
+      "apk_sha256": "6207047caff17c5155fddd576c9f251087a64fb483bcb42eb2b33b67084c7408",
+      "signature_verified": true,
+      "manifest_audit_passed": true
+    },
+    "offline": {
+      "tests": {
+        "tests": 76,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "lint": {
+        "Warning": 1
+      },
+      "apk": "app/build/outputs/apk/offline/debug/app-offline-debug.apk",
+      "apk_bytes": 56642123,
+      "apk_sha256": "df001db44d6a9ae397265842ad07ff5410a95eaa1de420679a21505b2419cd1c",
+      "signature_verified": true,
+      "manifest_audit_passed": true
+    }
+  },
+  "backend_implementation_changed": false,
+  "device_tests_run": false,
+  "new_meta_requests": 0,
+  "local_env_token_format_valid": true,
+  "local_backend_health_probe": "not reachable at configured loopback port"
+}
